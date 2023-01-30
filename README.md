@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- [Solution URL](https://your-solution-url.com)
-- [Live Site URL](https://your-live-site-url.com)
+- [Solution URL](https://github.com/mishael-codes/stats-preview-card-component-main)
+- [Live Site URL](https://mishael-codes.github.io/stats-preview-card-component-main/)
 
 ## My process
 
