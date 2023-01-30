@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap");
+
+:root {
+  --body-bg: hsl(233, 47%, 7%);
+  --card-bg: hsl(244, 38%, 16%);
+  --accents: hsl(277, 64%, 61%);
+
+  /* for fonts */
+
+  --h1-color: hsl(0, 0%, 100%);
+  --paragraph: hsla(0, 0%, 100%, 0.75);
+  --stats-color: hsla(0, 0%, 100%, 0.6);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  max-width: 100vw;
+}
+
+body {
+  background-color: var(--body-bg);
+  overflow-x: hidden;
+}
+
+main {
+  min-width: 100vw;
+  min-height: 100vh;
+}
+
+.container {
+  width: 85%;
+}
+
+.card-bg {
+  background-color: var(--card-bg);
+}
+
+.image-container {
+  position: relative;
+}
+
+.image-container:after{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background: hsla(277, 64%, 45%, 0.5);
+}
+
+.heading-1 {
+  width: 85%;
+}
+
+.heading-1,
+.stat-data {
+  color: var(--h1-color);
+  font-size: 1.8rem;
+  font-weight: 700;
+  font-family: "Inter", sans-serif;
+}
+
+#insights {
+  color: var(--accents);
+}
+
+.paragraph-1 {
+  color: var(--paragraph);
+  font-size: 0.8rem;
+  font-weight: 400;
+  font-family: "Inter", sans-serif;
+  line-height: 1.5rem;
+  width: 75%;
+}
+
+.stats p {
+  color: var(--stats-color);
+  font-weight: 400;
+  font-family: "Lexend Dexa", sans-serif;
+  font-size: 0.7rem;
+  letter-spacing: 0.1rem;
+}
+
+.attribution {
+  color: var(--paragraph);
+  font-size: 12.5px;
+  text-align: center;
+}
+
+.attribution a {
+  color: var(--accents);
+  text-decoration: none;
+}
+
+.attribution a:hover {
+  text-decoration: underline;
+}
+
+
+@media screen and (min-width: 992px) {
+    .heading-1,
+    .stat-data{
+        width: 70%;
+        font-size: 1.7rem;
+    }
+    
+    .paragraph-1{
+        width: 70%;
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
+
+    #card-bg{
+        width: 70% !important;
+    }
+
+    picture{
+        width: 100%;
+    }
+}
+
+
+@media screen and (min-width: 1400px) {
+    .heading-1{
+        width: 70%;
+        font-size: 2.5rem;
+    }
+    
+    .paragraph-1{
+        width: 70%;
+        font-size: 1.3rem;
+        line-height: 1.9rem;
+    }
+
+    #card-bg{
+        width: 50% !important;
+    }
+
+    picture{
+        width: 50%;
+    }
+}
