@@ -48,7 +48,9 @@ Users should be able to:
 
 I learnt some of bootstrap's screen sizing. That is, the different screen breakpoints that I came across during this project.
 ```md - 762px```
+
 ```lg - 992px```
+
 ```xl - 1200px```
 
 These are the screen breakpoints I used at one point in the project or to complete the project and I believe they will be helpful in future projects.
