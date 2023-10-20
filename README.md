@@ -67,5 +67,5 @@ you are already proficient in it, always refer to the docs. It is a real life-sa
 ## Author
 
 - Twitter - [@mishael_codes](https://www.twitter.com/mishael_codes)
-- Instagram - [@mishael.codes](https://www.instagram.com/mishael.codes)
+- Instagram - [@mishael_codes](https://www.instagram.com/mishael_codes)
 - Frontend Mentor - [@mishael-codes](https://www.frontendmentor.io/profile/mishael-codes)
